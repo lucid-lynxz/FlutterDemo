@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/RouteDemo.dart';
+import './pages/route_demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _MyHomePageState createState() => new _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
